@@ -24,7 +24,7 @@ def predict():
     output= {0:'not placed', 1:'placed'}
 
     return flask.render_template('predict.html',
-     prediction_text='Student must be {} to workplace'.format(output[prediction[0]]))
+     prediction_text='Result : Student must be {} to workplace'.format(output[prediction[0]]))
 
 
 if __name__ == '__main__':
